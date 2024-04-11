@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title Readaloud
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .story-container
+    audio#audioPlayer.hidden
+    button#openChat.hidden Talk about the story
+    .chat-modal.hidden
+      .error-message.hidden
+      button#toggleSpeak Start Speaking
+  script(type='module', src='/javascripts/appController.js')
