@@ -1,4 +1,3 @@
-// improt event emitter
 import EventEmitter from "../utils/eventEmitter.js";
 
 class ChatView extends EventEmitter {

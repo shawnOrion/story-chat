@@ -1,10 +1,8 @@
-// import event emitter
 import EventEmitter from "../utils/eventEmitter.js";
-// chat service class
 class ChatService extends EventEmitter {
   constructor() {
     super();
-    this.audioPlayer = document.getElementById("audioPlayer"); // Ensure this exists in your HTML
+    this.audioPlayer = document.getElementById("audioPlayer");
   }
 
   async getMessage(messages) {

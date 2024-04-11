@@ -1,6 +1,5 @@
 import EventEmitter from "../utils/eventEmitter.js";
 import AudioRecorder from "../utils/audioRecorder.js";
-// extends eventEmitter too
 class ChatRecorder extends AudioRecorder {
   constructor(stream, options = {}) {
     super(stream, options);
